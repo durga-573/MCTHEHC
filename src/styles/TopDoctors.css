@@ -1,0 +1,148 @@
+  .top-doctors-section {
+          width: 100%;
+          padding: 40px 0;
+          display: flex;
+          justify-content: center;
+        }
+        
+        .top-doctors-container {
+          width: 100%;
+          max-width: 1200px;
+          min-height: 400px;
+          text-align: center;
+          padding: 15px;
+          border: 2px solid #ddd;
+          border-radius: 10px;
+          background-color: white;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .top-doctors-heading-bar{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 20px;
+          
+        }
+        
+        
+        .top-doctors-heading {
+          font-size: 2.5rem;
+          font-weight: bold;
+          margin-bottom: 20px;
+          color: #333;
+          margin-left: 170px;
+
+        }
+
+        .search-container{
+          float: right;
+          justify-content: end;
+          align-items: center;
+          display: flex;
+          margin: 0 100px;
+        }
+        .search-bar{
+          width: 300px;
+          padding: 10px;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 0.8rem;
+          
+        }
+        
+        
+        .doctors-grid {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 20px;
+        }
+        
+        .doctor-card {
+          background-color: #f9f9f9;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          padding: 20px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          text-align: center;
+        }
+        
+        .doctor-img {
+          width: 100%;
+          height: auto;
+          border-radius: 8px;
+        }
+        
+        .doctor-name {
+          font-size: 1.2rem;
+          margin: 10px 0;
+        }
+        
+        .doctor-description {
+          font-size: 0.9rem;
+          color: #666;
+        }
+        
+       
+ 
+
+.doctor-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+}
+
+.doctor-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  /* border-radius: 50%; */
+  margin-right: 20px;
+  flex-shrink: 0;
+  /* border: 2px solid #007bff; */
+}
+
+.doctor-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.doctor-info h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.doctor-info p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.doctor-info strong {
+  color: #222;
+}
+
+.appointment-btn {
+  align-self: flex-start;
+  background-color: #007bff;
+  color: white;
+  padding: 1px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.appointment-btn:hover {
+  background-color: #0056b3;
+}
